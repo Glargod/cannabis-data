@@ -1,16 +1,14 @@
-# Cannabis Data Scraper
+# Cannabis Strains and Terpenes App
 
-A simple Python project to scrape cannabis strain data (terpenes, effects) from Leafly, store it in SQLite, and display it via a Flask web UI.
+A Flask web application to explore cannabis strains, terpenes, and their effects. Users can browse strains, view terpene profiles, and search for strains by desired effects.
 
-## Files
-- `scraper.py`: Scrapes strain data using Selenium.
-- `app.py`: Flask app to display data at `http://localhost:5000/strains`.
-- `templates/strains.html`: HTML template for the UI.
-- `requirements.txt`: Dependencies.
-- `cannabis_data.db`: SQLite database (not in GitHub due to `.gitignore`).
+## Prerequisites
+- Python 3.x
+- SQLite (included with Python)
+- A Kaggle account and API token (for downloading the dataset)
 
 ## Setup
-1. **Clone the Repo**:
+1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/Glargod/cannabis-data.git
+   git clone <your-repo-url>
    cd cannabis-data
