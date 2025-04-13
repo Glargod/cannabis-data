@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cannabis Strains</title>
+</head>
+<body>
+    <h1>Cannabis Strains</h1>
+    <ul>
+        {% for strain in strains %}
+            <li>
+                <strong>{{ strain['name'] }}</strong><br>
+                Terpenes: {{ strain['terpenes'] }}<br>
+                Helps with: {{ strain['helps_with'] }}
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
